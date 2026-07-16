@@ -1,0 +1,9 @@
+echo "Enter source file:"
+read s
+
+echo "Enter destination file:"
+read d
+
+cp $s $d
+
+echo "File Copied"
