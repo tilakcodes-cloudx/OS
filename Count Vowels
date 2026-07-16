@@ -1,0 +1,4 @@
+echo "Enter string:"
+read str
+
+echo $str | grep -o "[aeiouAEIOU]" | wc -l
