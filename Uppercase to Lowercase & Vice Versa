@@ -1,0 +1,6 @@
+echo "Enter string:"
+read str
+
+echo "$str" | tr 'A-Z' 'a-z'
+
+echo "$str" | tr 'a-z' 'A-Z'
