@@ -1,0 +1,27 @@
+echo "1.Date"
+echo "2.Pwd"
+echo "3.Ls"
+echo "4.Who"
+echo "5.Cal"
+echo "6.Clear"
+echo "7.Uname"
+echo "8.Whoami"
+echo "9.Ls -l"
+echo "10.Exit"
+
+echo "Enter choice:"
+read ch
+
+case $ch in
+1) date;;
+2) pwd;;
+3) ls;;
+4) who;;
+5) cal;;
+6) clear;;
+7) uname;;
+8) whoami;;
+9) ls -l;;
+10) exit;;
+*) echo "Invalid Choice";;
+esac
